@@ -15,8 +15,6 @@ html {
     box-sizing: inherit;
   }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -31,10 +29,6 @@ html {
     row-gap: 24px;
 
 }
-.buttons-header{
-    border: none;
-    background-color: #ffffff;
-}
 .navigation{
     min-height: 88px;
     display: flex;
@@ -48,6 +42,21 @@ html {
     display: flex;
     align-items: center;
 }
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+.buttons-header{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #ffffff;
+}
+.menu-logo__button-menu{
+    background-image: url(/header/header_menu.svg);
+}
+
 .call-chat-profile{
     display: flex;
     margin-left: auto;
@@ -55,18 +64,12 @@ html {
 
 }
 .button-call{
-    width: 40px;
-    height: 40px;
     background-image:url(/header/header_icon_call.svg)
 }
 .button-chat{
-    width: 40px;
-    height: 40px;
     background-image: url(/header/header_icon_chat.svg);
 }
 .button-profile{
-    width: 40px;
-    height: 40px;
     background-image: url(/header/header_icon_profile.svg)
 }
 .button-search{
@@ -77,17 +80,17 @@ margin-right: 16px;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
-    
 }
-  .logo{
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-  }
+.button-repair{
+    background-image: url(/header/header_repair.svg);
+}
+.button-search{
+    background-image: url(/header/header_checkstatus.svg);
+}
 .main{
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 22px;
 
 }
   .main-header{
@@ -110,7 +113,6 @@ margin-right: 16px;
 
   .side-menu{
     display: flex;
-    min-width: 320px;
     white-space:nowrap;
     overflow: scroll;
   }
@@ -124,26 +126,11 @@ margin-right: 16px;
     line-height: 24px;
     text-align: center;
     padding: 9px 8px;
-}
-  /* .side-menu__btn{
-    border: none;
-    background-color: transparent;
-    height: 40px;
-  } */
-
-.focused{
-    border: 2px solid #B8FFEC;
-    background-color: #FFFFFF;
-    border-radius: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 
 }
-/* .side-menu__btn-text{
-    font-family: "TT Lakes";
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-    margin: 8px 9px 9px 16px;
-} */
+
 .description{
     font-family: "TT Lakes";
     margin: 0 16px 16px 16px;
@@ -174,53 +161,72 @@ margin-right: 16px;
     height: auto;
 }
 @media ( width < 768px ){
-    .logo--vertical-divider-after {
+    .logo__vertical-divider-after {
         display:none;
-      }
-      .logo--vertical-divider-before {
+    }
+    .repair-search__vertical-divider-before {
         margin-left: 16px;
         margin-right: 4px;
         width: 2px;
         height: 32px;
         background-color: #EAEAEA;
       }
-      .button-menu{
+    .menu-logo__button-menu{
         margin: 0 16px;
-       }
+    }
     .call-chat-profile{
         display: none;
     }
     .side-menu__btn:first-child{
         margin-left: 16px;
-      } 
-      .side-menu__btn:last-child{
+    } 
+    .side-menu__btn:last-child{
         margin-right: 16px;
-      } 
-}
+    } 
+      .side-menu__btn:focus{
+        outline: #B8FFEC solid 2px;
+        background-color: #FFFFFF;
+        border-radius: 6px;
+    }
+    }
 
 @media ( 768px < width < 1120px){
-    .logo--vertical-divider-after {
+    .logo__vertical-divider-after {
         margin-right: 20px;
         margin-left: 20px;
         width: 2px;
         height: 32px;
         background-color: #EAEAEA;
-      }
-      .logo--vertical-divider-before {
+    }
+    .repair-search__vertical-divider-before {
         margin-left: 16px;
         margin-right: 0px;
         width: 2px;
         height: 32px;
         background-color: #EAEAEA;
     }
-    .button-menu{
+    .menu-logo__button-menu{
         margin-left: 24px;
-       }
-       .side-menu__btn:first-child{
+    }
+    .side-menu__btn:first-child{
         margin-left: 24px;
-      } 
-      .side-menu__btn:last-child{
+    } 
+    .side-menu__btn:last-child{
         margin-right: 24px;
-      } 
+    } 
+    .side-menu__btn:focus{
+        outline: #B8FFEC solid 2px;
+        background-color: #FFFFFF;
+        border-radius: 6px;
+    }
+
+}
+
+@media ( width > 1120px){
+    .side-menu__btn:hover{
+        outline: #B8FFEC solid 2px;
+        background-color: #FFFFFF;
+        border-radius: 6px;
+    }
 
 }
