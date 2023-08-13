@@ -14,32 +14,45 @@
                 </button>
                 <div class="logo">
                     <div class="logo__vertical-divider-after"></div>
-                    <img class="logo__img" src="/header/logo.svg" alt="Логотип">
+                    <img class="logo__img" src="/icon/logo.svg" alt="Логотип компании">
                 </div>
             </div>
             <div class="call-chat-profile">
                 <button class="button-call buttons-header" type="button" aria-label="Позвонить"></button>
                 <button class="button-chat buttons-header" type="button" aria-label="Написать в чат"></button>
-                <button class="button-profile buttons-header" type="button" aria-label="Зайти в профиль"></button>
+                <button class="button-profile buttons-header" type="button" aria-label="Профиль"></button>
             </div>
             <div class="repair-search">
                 <div class="repair-search__vertical-divider-before"></div>
-                <button class="button-repair  buttons-header" type="button" aria-label="Записаться в ремонт">
+                <button class="button-repair  buttons-header" type="button" aria-label="Оставить заявку">
                 </button>
-                <button class="button-search  buttons-header" type="button" aria-label="Найти">
+                <button class="button-search  buttons-header" type="button" aria-label="Статус ремонта">
                 </button>
             </div>
         </nav>
     </header>
     <main class="main">
-        <header class="main__header">
-            <div class="main-header__highlight"></div>
-            <h1 class="main-header__topic">Услуги и сервисы</h1>
+        <header class="main-header">
+            <div class="main-header__header">
+                <div class="main-header__highlight"></div>
+                <h1 class="main-header__topic">Услуги и сервисы</h1>
+             </div>
+             <nav class="nav-for-desktop">
+                <div class="nav-for-desktop__button-repair">
+                    <label class="" for="button-repair">Оставить заявку</label>
+                    <button class="button-repair  buttons-header" id="button-repair" type="button"></button>
+                </div>
+                <div class="nav-for-desktop__button-search">
+                    <label for="button-search">Статус ремонта</label>
+                    <button class="button-search  buttons-header" id="button-search" type="button"></button>
+                    </div>
+             </nav>
         </header>
-        <div class="side-menu">
+        <nav class="side-menu">
             <Button class="side-menu__btn" type="button">
                 Ремонтируемые устройства
             </Button>
+            <div class="blur-element"></div>
             <Button class="side-menu__btn" type="button">
                 Дополнительные услуги
             </Button>
@@ -55,31 +68,34 @@
             <Button class="side-menu__btn" type="button">
                 Отзывы
             </Button>
-        </div>
+        </nav>
         <section class="section">
             <div class="description-read-more">
                 <div class="description">
-                    <p class="for-all">
+                    <p class="description__for-all">
                         Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
                     </p>
-                    <p class="for-tablet">
+                    <p class="description__for-tablet">
                         <br>
                         Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
                     </p>
-                    <p class="for-desktop">
+                    <p class="description__for-desktop">
                         Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
                     </p>
             </div>
-            <div class="read-more">
+            <nav class="read-more">
                     <button class="button-read-more" type="button">
-                        <img class="button-read-more__image" src="/header/main_icon_read.svg" alt="Читаль далее"> 
+                        <img class="button-read-more__image" src="/icon/main_icon_read.svg" alt="Читаль далее"> 
                         <span class="button-read-more__text">
                             <b>Читать далее</b>
                         </span>
                     </button>
-            </div>
+            </nav>
         </div>
-        <img class="main-picture" src="/header/main_picture.png">
+            <img class="main-picture-mob" src="/icon/main_picture.png" alt="Фото сервисного центра">
+            <img class="main-picture-tablet" src="/icon/main_picture_from_tablet.png" alt="Фото сервисного центра" >
+            <img class="main-picture-desktop" src="/icon/main_picture_from_pc.png" alt="Фото сервисного центра">
+
         </section>
     </main>
     <footer></footer>
