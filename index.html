@@ -18,15 +18,15 @@
                 </div>
             </div>
             <div class="call-chat-profile">
-                <button class="button-call buttons-header" type="button" aria-label="Позвонить"></button>
-                <button class="button-chat buttons-header" type="button" aria-label="Написать в чат"></button>
-                <button class="button-profile buttons-header" type="button" aria-label="Профиль"></button>
+                <button class="call-chat-profile__button-call buttons-header" type="button" aria-label="Позвонить"></button>
+                <button class="call-chat-profile__button-chat buttons-header" type="button" aria-label="Написать в чат"></button>
+                <button class="call-chat-profile__button-profile buttons-header" type="button" aria-label="Профиль"></button>
             </div>
             <div class="repair-search">
                 <div class="repair-search__vertical-divider-before"></div>
-                <button class="button-repair  buttons-header" type="button" aria-label="Оставить заявку">
+                <button class="repair-search__button-repair  buttons-header" type="button" aria-label="Оставить заявку">
                 </button>
-                <button class="button-search  buttons-header" type="button" aria-label="Статус ремонта">
+                <button class="repair-search__button-search  buttons-header" type="button" aria-label="Статус ремонта">
                 </button>
             </div>
         </nav>
@@ -38,13 +38,13 @@
                 <h1 class="main-header__topic">Услуги и сервисы</h1>
              </div>
              <nav class="nav-for-desktop">
-                <div class="nav-for-desktop__button-repair">
-                    <label class="" for="button-repair">Оставить заявку</label>
-                    <button class="button-repair  buttons-header" id="button-repair" type="button"></button>
+                <div class="nav-for-desktop__repair">
+                    <label  for="button-repair">Оставить заявку</label>
+                    <button class="nav-for-desktop__button-repair  buttons-header" id="button-repair" type="button"></button>
                 </div>
-                <div class="nav-for-desktop__button-search">
+                <div class="nav-for-desktop__search">
                     <label for="button-search">Статус ремонта</label>
-                    <button class="button-search  buttons-header" id="button-search" type="button"></button>
+                    <button class="nav-for-desktop__button-search  buttons-header" id="button-search" type="button"></button>
                     </div>
              </nav>
         </header>
@@ -83,18 +83,19 @@
                         Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
                     </p>
             </div>
-            <nav class="read-more">
+            <div class="read-more">
                     <button class="button-read-more" type="button">
                         <img class="button-read-more__image" src="/icon/main_icon_read.svg" alt="Читаль далее"> 
                         <span class="button-read-more__text">
                             <b>Читать далее</b>
                         </span>
                     </button>
-            </nav>
+            </div>
         </div>
-            <img class="main-picture-mob" src="/icon/main_picture.png" alt="Фото сервисного центра">
-            <img class="main-picture-tablet" src="/icon/main_picture_from_tablet.png" alt="Фото сервисного центра" >
-            <img class="main-picture-desktop" src="/icon/main_picture_from_pc.png" alt="Фото сервисного центра">
+
+                <img class="main-picture-mob" src="/icon/main_picture.png" alt="Фото сервисного центра">
+                <img class="main-picture-tablet" src="/icon/main_picture_from_tablet.png" alt="Фото сервисного центра" >
+                <img class="main-picture-desktop" src="/icon/main_picture_from_pc.png" alt="Фото сервисного центра">
 
         </section>
     </main>
