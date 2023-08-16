@@ -8,8 +8,10 @@
 
 }
 html {
+    background-color: #ffffff;
     box-sizing: border-box;
     font-family: "TT Lakes";
+    min-width: 320px;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -21,8 +23,6 @@ html {
     }
 
 .body{
-    padding: 0;
-    margin: 0;
     background-color: #F8F8F8;
     display: flex;
     flex-direction: column;
@@ -30,13 +30,11 @@ html {
 
 }
 .navigation{
-    min-height: 88px;
+    height: 88px;
     display: flex;
     align-items: center;
     background-color: #ffffff;
     justify-content: space-between;
-
-
 }
 .menu-logo{
     display: flex;
@@ -122,14 +120,19 @@ html {
     white-space:nowrap;
     overflow: auto;
   }
+  .side-menu::-webkit-scrollbar { 
+    display: none; 
+    }
 .blur-element{
     position: absolute;
     right: 0;
     width: 40px;
     height: 40px;
-    background: linear-gradient(to right, transparent, #F8F8F8)
-
+    background: linear-gradient(to right, transparent, #F8F8F8);
+    
 }
+
+
 .side-menu__btn{
     border: none;
     background-color: transparent;
