@@ -53,7 +53,7 @@ html {
     background-color: #ffffff;
 }
 .menu-logo__button-menu{
-    background-image: url(/icon/header_menu.svg);
+    background-image: url(icon/header_menu.svg);
 }
 
 .call-chat-profile{
@@ -63,13 +63,13 @@ html {
 
 }
 .call-chat-profile__button-call{
-    background-image:url(/icon/header_icon_call.svg)
+    background-image:url(icon/header_icon_call.svg)
 }
 .call-chat-profile__button-chat{
-    background-image: url(/icon/header_icon_chat.svg);
+    background-image: url(icon/header_icon_chat.svg);
 }
 .call-chat-profile__button-profile{
-    background-image: url(/icon/header_icon_profile.svg)
+    background-image: url(icon/header_icon_profile.svg)
 }
 .repair-search{
     gap: 16px;
@@ -79,11 +79,11 @@ html {
 }
 .nav-for-desktop__button-repair,
 .repair-search__button-repair{
-    background-image: url(/icon/header_repair.svg);
+    background-image: url(icon/header_repair.svg);
 }
 .nav-for-desktop__button-search,
 .repair-search__button-search {
-    background-image: url(/icon/header_checkstatus.svg);
+    background-image: url(icon/header_checkstatus.svg);
 }
 .repair-search__button-search{
     margin-right: 16px;
