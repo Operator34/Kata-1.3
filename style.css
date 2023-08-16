@@ -85,6 +85,9 @@ html {
 .repair-search__button-search {
     background-image: url(icon/header_checkstatus.svg);
 }
+.nav-for-desktop__button-search{
+    margin-right: 32px;
+}
 .repair-search__button-search{
     margin-right: 16px;
 }
@@ -349,6 +352,7 @@ html {
         align-items: center;
         gap: 8px;
     }
+
     .main-picture-mob,
     .main-picture-tablet{
         display: none;
