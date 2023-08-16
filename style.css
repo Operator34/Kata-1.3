@@ -81,15 +81,14 @@ html {
 .repair-search__button-repair{
     background-image: url(icon/header_repair.svg);
 }
-.nav-for-desktop__button-search,
-.repair-search__button-search {
+
+.repair-search__button-search{
+    margin-right: 16px;
     background-image: url(icon/header_checkstatus.svg);
 }
 .nav-for-desktop__button-search{
     margin-right: 32px;
-}
-.repair-search__button-search{
-    margin-right: 16px;
+    background-image: url(icon/header_checkstatus.svg);
 }
 .main{
     display: flex;
