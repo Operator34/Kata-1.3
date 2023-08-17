@@ -136,6 +136,7 @@ html {
 
 
 .side-menu__btn{
+    text-decoration: none;;
     border: none;
     background-color: transparent;
     height: 40px;
@@ -148,7 +149,12 @@ html {
     margin-bottom: 2px;
 
 }
-
+.side-menu__btn:visited{
+    text-decoration: none;
+    color: #7E7E82;
+    ;
+    
+}
 .description{
     font-family: "TT Lakes";
     font-size: 14px;
