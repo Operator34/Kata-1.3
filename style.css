@@ -199,7 +199,8 @@ html {
         margin-right: 16px;
     }
 
-    .side-menu__btn:hover{
+    .side-menu__btn:hover,
+    .side-menu__btn:focus{
         outline: #B8FFEC solid 2px;
         background-color: #FFFFFF;
         border-radius: 6px;
