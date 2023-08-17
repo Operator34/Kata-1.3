@@ -197,8 +197,9 @@ html {
     } 
     .side-menu__btn:last-child{
         margin-right: 16px;
-    } 
-      .side-menu__btn:focus{
+    }
+
+    .side-menu__btn:hover{
         outline: #B8FFEC solid 2px;
         background-color: #FFFFFF;
         border-radius: 6px;
