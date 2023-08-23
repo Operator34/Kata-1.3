@@ -8,7 +8,7 @@
 
 }
 html {
-    background-color: #ffffff;
+    background-color: #F8F8F8;
     box-sizing: border-box;
     font-family: "TT Lakes";
     min-width: 320px;
@@ -305,7 +305,14 @@ html {
 }
 
 @media ( width > 1120px){
-
+    html { 
+        display: flex; 
+        justify-content: 
+        center;
+    }
+    .body{ 
+        max-width: 1120px;
+    }
     .side-menu__btn:hover,
     .side-menu__btn:focus{
         outline: #B8FFEC solid 2px;
